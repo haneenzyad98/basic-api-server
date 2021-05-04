@@ -1,0 +1,27 @@
+{
+  "name": "basic-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneenzyad98/basic-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haneenzyad98/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/haneenzyad98/basic-api-server#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
