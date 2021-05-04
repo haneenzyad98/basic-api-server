@@ -1,5 +1,5 @@
 'use strict';
-const logger = require('../src/middlewares/logger.js');
+const logger = require('../src/middleware/logger.js');
 // spy on calling the console log or not
 
 describe('Logger middleware', ()=> {

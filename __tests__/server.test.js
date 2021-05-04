@@ -2,8 +2,8 @@
 
 const server = require('../src/server');
 
-const superTest = require('supertest');
-const serverRequest = superTest(server.app);
+const supertest = require("supertest");
+const serverRequest = supertest(server.app);
 
 
 describe('Server Module', ()=> {
