@@ -5,6 +5,7 @@ const server = require('../src/server');
 const supertest = require("supertest");
 const serverRequest = supertest(server.app);
 
+let id;
 
 describe('Server Module', ()=> {
     it('404 on a bad route', async ()=> {
